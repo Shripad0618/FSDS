@@ -1,0 +1,67 @@
+1. Why are functions advantageous to have in your programs?
+Ans: We dont need to do multiple repeatation in writing the logics of the code. once a logic is written it can be used multiple times in different functions
+
+
+
+2. When does the code in a function run: when it's specified or when it's called? 
+when it's specified
+
+
+3. What statement creates a function?
+def statement
+
+
+
+4. What is the difference between a function and a function call?
+Function is a user defined set of statements used for automation of code skipping repetative line of codes
+
+Once a function is defined function call is executed so that the mentioned logics and statements in function have to be applied on the values to provide output
+
+
+
+
+5. How many global scopes are there in a Python program? How many local scopes?
+
+There is only 1 global scope in python program limiting towards a single file execution. local scopes can be more than 1 because we can specify multiple regions for a variable access
+
+
+
+6. What happens to variables in a local scope when the function call returns?
+once the function call returns the scope of variable expires. Again to activate the scope of the local variable the function needs to be called
+
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+return value returns the values as it's datatype. yes it's possible to have return value in an expression
+
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+if there is no return statement then the return type is None
+
+
+9. How do you make a function variable refer to the global variable?
+use the global keyword
+
+
+
+10. What is the data type of None?
+
+NoneType
+
+
+11. What does the sentence import areallyourpetsnamederic do?
+
+returns error ModuleNotFoundError: No module named 'areallyourpetsnamederic'
+
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+spam.bacon()
+
+
+
+13. What can you do to save a programme from crashing if it encounters an error?
+use try and except
+
+
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+try will execute a code if there is an error except clause will run showcasing the type of error
